@@ -1,10 +1,13 @@
 import { DataStore } from 'src/services/store';
 import { fetchAllData } from './flowControllers';
 export default async function fetchAndSaveDataToStore(store:DataStore){
+  const filename = "total.xml"; // proporciona el nombre del archivo que deseas usar
+
+
 try {
     const dataPromise = await fetchAllData();
-    store.saveLocal(dataPromise)
-    store.saveXml(dataPromise)
+    store.saveLocal(dataPromise, filename);
+    store.saveXml(dataPromise, filename);
     //store.saveStore(dataPromise)
   } catch (error) {
     
