@@ -1,30 +1,12 @@
 import express from 'express';
 import cors from 'cors';
+import { store } from './services/store';
+import {iniciarCiclo,detenerCiclo} from './main'
 import fs from 'fs';
 import path from 'path'
-import cron ,{ ScheduledTask }from 'node-cron';
-import { store } from './services/store';
-import ejecutarEnParalelo from './main';
 
 const app = express();
 const port = 3000;
-
-let cronJob: ScheduledTask  | null = null; 
-// Función para iniciar el ciclo
-function iniciarCiclo() {
-  cronJob = cron.schedule('*/30 * * * * *', async () => {
-    await ejecutarEnParalelo();
-  });
-  console.log('Ciclo iniciado.');
-}
-
-// Función para detener el ciclo
-function detenerCiclo() {
-  if (cronJob) {
-    cronJob.stop();
-    console.log('Ciclo detenido.');
-  }
-}
 
 app.use(cors());
 app.use('', express.static('public'));
@@ -48,8 +30,20 @@ app.post('/iniciar-ciclo', async (req, res) => {
     res.status(500).json({ error: 'Error al iniciar el ciclo desde el backend.' });
   }
 });
+
+// Ruta para detener el ciclo
+app.post('/detener-ciclo', async (req, res) => {
+  try {
+    detenerCiclo();
+    res.json({ message: 'Ciclo detenido desde el backend.' });
+  } catch (error) {
+    console.error('Error al detener el ciclo:', error);
+    res.status(500).json({ error: 'Error al detener el ciclo desde el backend.' });
+  }
+});
+
 app.get('/mesas', (req, res) => {
-  const xmlPath = path.resolve(__dirname, '../src/db/totalMesas.xml'); // Reemplaza 'resultado.xml' con el nombre real del archivo
+  const xmlPath = path.resolve(__dirname, '../src/db/Recuento_Mesas.xml'); // Reemplaza 'resultado.xml' con el nombre real del archivo
 
   fs.readFile(xmlPath, 'utf-8', (err, data) => {
     if (err) {
@@ -61,7 +55,7 @@ app.get('/mesas', (req, res) => {
   });
 });
 app.get('/resultados', (req, res) => {
-  const xmlPath = path.resolve(__dirname, '../src/db/total.xml'); // Reemplaza 'resultado.xml' con el nombre real del archivo
+  const xmlPath = path.resolve(__dirname, '../src/db/resultado.xml'); // Reemplaza 'resultado.xml' con el nombre real del archivo
 
   fs.readFile(xmlPath, 'utf-8', (err, data) => {
     if (err) {
@@ -71,16 +65,6 @@ app.get('/resultados', (req, res) => {
       res.send(data);
     }
   });
-});
-// Ruta para detener el ciclo
-app.post('/detener-ciclo', async (req, res) => {
-  try {
-    detenerCiclo();
-    res.json({ message: 'Ciclo detenido desde el backend.' });
-  } catch (error) {
-    console.error('Error al detener el ciclo:', error);
-    res.status(500).json({ error: 'Error al detener el ciclo desde el backend.' });
-  }
 });
 
 app.listen(port, () => {

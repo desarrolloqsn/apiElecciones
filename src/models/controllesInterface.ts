@@ -42,6 +42,17 @@ export interface jsonprincipal {
   valoresTotalizadosOtros: Valores 
 }
 
+export interface DataModel {
+  "Dine Agrupacion": string;
+  "Agrupacion Canal 9": string;
+  "Dine Lista": string;
+  "PUESTO": string;
+  "Lista Canal 9": string;
+  "Candidato": string;
+  "Sigla": string;
+}
+
+
 export interface Totalizacion {
   cargo?: string | null | undefined;
   distrito?: string| null;
