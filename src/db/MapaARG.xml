@@ -1,0 +1,122 @@
+<MapaARG>
+  <ResultadosMapa>
+    <ID>001</ID>
+    <Distrito>BUENOS AIRES</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>002</ID>
+    <Distrito>CATAMARCA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>003</ID>
+    <Distrito>CHACO</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>004</ID>
+    <Distrito>CHUBUT</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>005</ID>
+    <Distrito>CÓRDOBA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>006</ID>
+    <Distrito>CORRIENTES</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>007</ID>
+    <Distrito>ENTRE RÍOS</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>008</ID>
+    <Distrito>FORMOSA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>009</ID>
+    <Distrito>JUJUY</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>010</ID>
+    <Distrito>LA PAMPA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>011</ID>
+    <Distrito>LA RIOJA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>012</ID>
+    <Distrito>MENDOZA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>013</ID>
+    <Distrito>MISIONES</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>014</ID>
+    <Distrito>NEUQUÉN</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>015</ID>
+    <Distrito>RÍO NEGRO</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>016</ID>
+    <Distrito>SALTA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>017</ID>
+    <Distrito>SAN JUAN</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>018</ID>
+    <Distrito>SAN LUIS</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>019</ID>
+    <Distrito>SANTA CRUZ</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>020</ID>
+    <Distrito>SANTA FE</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>021</ID>
+    <Distrito>SANTIAGO DEL ESTERO</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>022</ID>
+    <Distrito>TIERRA DEL FUEGO</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>023</ID>
+    <Distrito>TUCUMÁN</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+  <ResultadosMapa>
+    <ID>024</ID>
+    <Distrito>CABA</Distrito>
+    <Ganador>UXP</Ganador>
+  </ResultadosMapa>
+</MapaARG>

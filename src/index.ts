@@ -5,6 +5,7 @@ import {iniciarCiclo,detenerCiclo} from './main'
 import fs from 'fs';
 import path from 'path'
 
+
 const app = express();
 const port = 3000;
 
@@ -43,7 +44,7 @@ app.post('/detener-ciclo', async (req, res) => {
 });
 
 app.get('/mesas', (req, res) => {
-  const xmlPath = path.resolve(__dirname, '../src/db/Recuento_Mesas.xml'); // Reemplaza 'resultado.xml' con el nombre real del archivo
+  const xmlPath = path.resolve(__dirname, '../src/db/recuento_mesas.xml'); 
 
   fs.readFile(xmlPath, 'utf-8', (err, data) => {
     if (err) {
@@ -55,7 +56,7 @@ app.get('/mesas', (req, res) => {
   });
 });
 app.get('/resultados', (req, res) => {
-  const xmlPath = path.resolve(__dirname, '../src/db/resultado.xml'); // Reemplaza 'resultado.xml' con el nombre real del archivo
+  const xmlPath = path.resolve(__dirname, '../src/db/resultado.xml'); 
 
   fs.readFile(xmlPath, 'utf-8', (err, data) => {
     if (err) {
@@ -66,7 +67,30 @@ app.get('/resultados', (req, res) => {
     }
   });
 });
+app.get('/mapasArg', (req, res) => {
+  const xmlPath = path.resolve(__dirname, '../src/db/MapaARG.xml');
 
+  fs.readFile(xmlPath, 'utf-8', (err, data) => {
+    if (err) {
+      console.error('Error al leer el archivo XML:', err);
+      res.status(500).json({ error: 'Error al leer el archivo XML' });
+    } else {
+      res.send(data);
+    }
+  });
+});
+app.get('/mapaPBA', (req, res) => {
+  const xmlPath = path.resolve(__dirname, '../src/db/MapaPBA.xml');
+
+  fs.readFile(xmlPath, 'utf-8', (err, data) => {
+    if (err) {
+      console.error('Error al leer el archivo XML:', err);
+      res.status(500).json({ error: 'Error al leer el archivo XML' });
+    } else {
+      res.send(data);
+    }
+  });
+});
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });

@@ -10,7 +10,15 @@ export interface Options {
   }
 
 export interface Url{
+  ID: string;
   PUESTO: string;
   DISTRITO: string;
   URL: string;
 }
+export interface UrlPBA{
+  ID: string;
+  "DISTRITO DINE": string;
+  "DISTRITO CANAL": string;
+  URL: string;
+}
+

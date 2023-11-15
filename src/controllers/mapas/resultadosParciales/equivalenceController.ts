@@ -1,5 +1,5 @@
 import { Agrupacion, DataModel, total } from "src/models/controllesInterface";
-import { callReview } from '../../utility/utils';
+import { callReview } from '../../../utility/utils';
 
 export async function actualizarTotalizacion(dataTotal: total): Promise < total > {
     const dataCompare: DataModel[] = callReview();

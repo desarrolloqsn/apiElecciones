@@ -1,0 +1,177 @@
+[
+    {
+      "ID": null,
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "NACIONAL",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "001",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "BUENOS AIRES",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=02",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "002",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "CATAMARCA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=03",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "003",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "CHACO",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=06",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "004",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "CHUBUT",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=07",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "005",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "C\u00d3RDOBA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=04",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "006",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "CORRIENTES",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=05",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "007",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "ENTRE R\u00cdOS",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=08",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "008",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "FORMOSA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=09",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "009",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "JUJUY",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=10",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "010",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "LA PAMPA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=11",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "011",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "LA RIOJA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=12",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "012",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "MENDOZA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=13",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "013",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "MISIONES",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=14",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "014",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "NEUQU\u00c9N",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=15",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "015",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "R\u00cdO NEGRO",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=16",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "016",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "SALTA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=17",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "017",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "SAN JUAN",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=18",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "018",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "SAN LUIS",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=19",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "019",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "SANTA CRUZ",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=20",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "020",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "SANTA FE",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=21",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "021",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "SANTIAGO DEL ESTERO",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=22",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "022",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "TIERRA DEL FUEGO",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=24",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "023",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "TUCUM\u00c1N",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=23",
+      "NIVEL": "PRESIDENTE"
+    },
+    {
+      "ID": "024",
+      "PUESTO": "PRESIDENTE",
+      "DISTRITO": "CABA",
+      "URL": "https://api.resultados.gob.ar/api/resultados/getResultados?categoriaId=1&distritoId=01",
+      "NIVEL": "PRESIDENTE"
+    }
+  ]

@@ -10,7 +10,7 @@ export async function fetchData(url: string, distrito: string , nivel: string ):
       const totalizacionMesas : recuentoMesas[] = await parceoMesas(data, distrito, nivel)
       return totalizacionMesas;
     } catch ( error:any ) {
-      console.log(error.message);
+//      console.log(error.message);
       throw error;
     }
   }

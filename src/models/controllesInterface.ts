@@ -3,12 +3,13 @@ export interface recuentoMesas {
   nivel?: number | string ,
   mesasEsperadas?: number,
   mesasTotalizadas?:number
+  mesasTotalizadasPorcentaje?:string,
   }
 
 export interface EstadoRecuento {
   mesasEsperadas: number;
   mesasTotalizadas: number;
-  mesasTotalizadasPorcentaje: number;
+  mesasTotalizadasPorcentaje: string;
   cantidadElectores: number;
   cantidadVotantes: number;
   participacionPorcentaje: number;
@@ -24,7 +25,7 @@ export interface ResultValor {
   idAgrupacionTelegrama: string;
   nombreAgrupacion: string;
   votos: number;
-  votosPorcentaje: number;
+  votosPorcentaje: number | string ;
   listas: Lista[];
 }
 export interface Valores {
@@ -50,8 +51,33 @@ export interface DataModel {
   "Lista Canal 9": string;
   "Candidato": string;
   "Sigla": string;
+  "DISTRITO":string;
 }
-
+export interface DataModelCaba {
+  "Dine Agrupacion": string;
+  "Agrupacion Canal 9": string;
+  "Dine Lista": string;
+  "PUESTO": string;
+  "Lista Canal 9": string;
+  "Dine Candidato": string;
+  "Candidato Canal 9": string;
+  "DISTRITO": string;
+  "Sigla": string;
+}
+export interface Mapas {
+  MapaARG: {
+    ResultadosMapa: ResultMapaARG[];
+  };
+}
+export interface MapasPBA {
+  MapaPBA: {
+    ResultadosMapa: ResultMapaARG[];
+  };
+}
+export interface Ganadores{
+  sigla?: string| null | undefined;
+  votosPorcentaje?: number;
+}
 
 export interface Totalizacion {
   cargo?: string | null | undefined;
@@ -59,7 +85,22 @@ export interface Totalizacion {
   nombreAgrupacion?: string| null | undefined;
   sigla?: string| null | undefined;
   votos?: string | number ;
+  votosPorcentaje?: number | string;
   listas?: ListaJson[];
+}
+
+export interface CompareModel  {
+  ID: string | null;
+  PUESTO: string;
+  DISTRITO: string;
+  URL: string;
+  NIVEL: string;
+};
+
+export interface ResultMapaARG {
+  ID: string | null;
+  Distrito: string;
+  Ganador: string;
 }
 
 
@@ -75,6 +116,18 @@ export interface totalMesas{
   total:{
     recuentoMesas:recuentoMesas[]
   }
+}
+export interface Agrupacion {
+  Id?: string;
+  Distrito?: string;
+  nombreAgrupacion: string;
+  sigla: string;
+  votos: number;
+  votosPorcentaje: number;
+}
+export interface FetchAllDataResult {
+  dataEquivalente: total;
+  winner: Agrupacion[];
 }
 export interface total{
   total:{
@@ -137,7 +190,7 @@ export interface Lista {
     idAgrupacionTelegrama: string;
     nombreAgrupacion: string;
     votos: number;
-    votosPorcentaje: number;
+    votosPorcentaje: number | string;
     listas: Lista[];
   }
   
