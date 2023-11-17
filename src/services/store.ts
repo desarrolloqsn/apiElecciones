@@ -52,7 +52,7 @@ export class DataStore {
       this.saveLocal(mapasArg, fileNames.filnameMapasArgjson),
       // this.saveXml(mapasPBA, fileNames.filnameMapasPBA),
       // this.saveLocal(mapasPBA, fileNames.filnameMapasPBAjson),
-      // this.saveStore()
+      this.saveStore()
     ]);
   }
 
