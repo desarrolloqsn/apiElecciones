@@ -2,82 +2,82 @@
   <ResultadosMapa>
     <ID>001</ID>
     <Distrito>BUENOS AIRES</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>002</ID>
     <Distrito>CATAMARCA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>003</ID>
     <Distrito>CHACO</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>004</ID>
     <Distrito>CHUBUT</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>005</ID>
     <Distrito>CÓRDOBA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>006</ID>
     <Distrito>CORRIENTES</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>007</ID>
     <Distrito>ENTRE RÍOS</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>008</ID>
     <Distrito>FORMOSA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>009</ID>
     <Distrito>JUJUY</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>010</ID>
     <Distrito>LA PAMPA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>011</ID>
     <Distrito>LA RIOJA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>012</ID>
     <Distrito>MENDOZA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>013</ID>
     <Distrito>MISIONES</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>014</ID>
     <Distrito>NEUQUÉN</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>015</ID>
     <Distrito>RÍO NEGRO</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>016</ID>
     <Distrito>SALTA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>017</ID>
@@ -87,7 +87,7 @@
   <ResultadosMapa>
     <ID>018</ID>
     <Distrito>SAN LUIS</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>019</ID>
@@ -97,7 +97,7 @@
   <ResultadosMapa>
     <ID>020</ID>
     <Distrito>SANTA FE</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
   <ResultadosMapa>
     <ID>021</ID>
@@ -117,6 +117,6 @@
   <ResultadosMapa>
     <ID>024</ID>
     <Distrito>CABA</Distrito>
-    <Ganador>LLA</Ganador>
+    <Ganador>UXP</Ganador>
   </ResultadosMapa>
 </MapaARG>
